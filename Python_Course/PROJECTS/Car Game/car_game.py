@@ -19,8 +19,10 @@ while stopped != True:
     elif choice == 'exit': 
         stopped = True
     elif choice == 'help':
-        print('Start: Starts the car')
-        print('Stop: Stops the car')
-        print('Exit: Exits the program')
+        print('''
+ Start: Starts the car
+ Stop: Stops the car
+ Exit: Exits the program
+        ''')
     else:
         print('Unknown command. Type help for help.')
