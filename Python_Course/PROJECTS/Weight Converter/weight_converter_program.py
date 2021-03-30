@@ -1,5 +1,3 @@
-from math import ceil
-
 weight = float(input("Weight: "))
 system = str(input("(L)bs or (K)g: "))
 system = system.lower()
