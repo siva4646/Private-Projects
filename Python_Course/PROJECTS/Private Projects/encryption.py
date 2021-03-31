@@ -3,7 +3,7 @@ import hashlib
 def element_to_sha512(string):
     string = hashlib.sha512(string.encode())
     return string.hexdigest()
-print(element_to_sha512('Hello'))
+# print(element_to_sha512('Hello'))
 
 def element_to_sha256(string):
     string = hashlib.sha256(string.encode())
@@ -14,4 +14,4 @@ print('''
 
 ''')
 
-print(element_to_sha256('Hello'))
+print(element_to_sha512(input()))
