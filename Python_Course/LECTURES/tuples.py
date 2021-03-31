@@ -1,3 +1,3 @@
 numbers = (1, 2, 3)
 # Immutable
-print(numbers)
+# numbers[0] = 2 # TypeError
