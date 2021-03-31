@@ -4,6 +4,6 @@ max = 0
 for x in names:
     
     if x > max:
-        max = last_num
+        max = x
 
 print(max)
