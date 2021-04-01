@@ -6,7 +6,11 @@ graphics = {
 }
 
 gpu = str(input("GPU Type: "))
-weight = float(input("Weight: "))
+try:
+    weight = float(input("Weight: "))
+except ValueError:
+    print('Please input a number.')
+    exit()
 metric = input("(L)bs or (K)g: ")
 
 if metric.lower() == 'l':
@@ -23,7 +27,11 @@ elif metric.lower() == 'k':
         metric = 'lbs'
 
 model = input("Model: ")
-cpufreq = int(input("CPU Frequency: "))
+try:
+    cpufreq = int(input("CPU Frequency: "))
+except ValueError:
+    print('Please input a number.')
+    exit()
 cpu_metric = input("(G)hz or (M)hz: ")
 
 if cpu_metric.lower() == 'g':
