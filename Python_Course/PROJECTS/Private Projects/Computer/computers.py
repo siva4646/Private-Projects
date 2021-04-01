@@ -4,5 +4,5 @@ weight = float(input())
 model = input()
 cpufreq = int(input())
 
-model = model.split(' ')
-print(model)
+# model = model.split(' ')
+# print(model)
