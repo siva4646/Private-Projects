@@ -1,12 +1,16 @@
 from gmail import *
-import sms4
+from random import *
 
 gmail = GMail('throwaway05314@gmail.com', 'dodbwiqcgmpojzcg')
 print('Created GMail account')
 i = 0
 
-for i in range(1):
-    msg = Message('Balls' + str(i), to="PIPICM25@smc.sa.edu.au", text=
+random_words = ['Balls', 'Penis', 'Vagina', 'Cock', 'Hubble', 'Telescopes', 'Planet', 'Earth', 'Urethra']
+
+for i in range(1000):
+    random_num = randint(0, 8)
+    word = random_words[random_num]
+    msg = Message(word + str(i), to="freeoflee@gmail.com", text=
     '''
     BallsBalls                      
     BallsBalls                      
