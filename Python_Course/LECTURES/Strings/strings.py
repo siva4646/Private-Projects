@@ -22,6 +22,6 @@ indexes_example = 'Python for Beginners'
 print(indexes_example[0]) # Outputs 'P' because [0] is telling the Python Interpreter to get the first character in the indexes_example variable.
 print(indexes_example[-1]) # This outputs the last value in the variable.
 print(indexes_example[-2]) # This outpuds the second to last value in the variable
-print(indexes_example[0:3] # This outputs the values in the variable from the first to last index chosen, excluding the last #For example, printing [0:3] prints the first, second and third
+print(indexes_example[0:3]) # This outputs the values in the variable from the first to last index chosen, excluding the last #For example, printing [0:3] prints the first, second and third
 print(indexes_example[:5]) # Prints the string from the start, to the index specified.
 print(indexes_example[:]) # Prints the whole string.
