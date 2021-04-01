@@ -9,3 +9,10 @@ def metres_to_cm(length):
 
 def cm_to_metres(length):
     return length / 100
+
+def find_max(numbers):
+    max = 0
+    for number in numbers:
+        if number > max:
+            max = number
+    return max

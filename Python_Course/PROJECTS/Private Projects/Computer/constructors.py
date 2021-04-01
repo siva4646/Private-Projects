@@ -20,7 +20,7 @@ class Laptop(Desktop):
     def Weight(self, weight):
         return weight
 
-test = Desktop(list(input("Graphics: ")))
+test = Desktop(input("Graphics: "))
 test.cpu_freq = int(input("CPU Frequency: "))
 test.model = str(input("Model: "))
 #graphics = ['GeForce', 'Nvidia']
