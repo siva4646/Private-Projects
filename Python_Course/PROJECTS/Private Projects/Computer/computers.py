@@ -10,7 +10,8 @@ cpufreq = int(input())
 
 
 gpu = gpu.lower()
-print(gpu)
+
+
 if gpu in graphics: # fixed
     gpu = graphics.get(gpu)
     output = f'{cpufreq}MHz {gpu} {weight}kg {model}'
@@ -18,6 +19,7 @@ if gpu in graphics: # fixed
     model = f'Model: {model}'
     weight = f'Weight: {weight}kg'
     gpu = f'GPU Type: {gpu}'
+    
     print(f'''
 {cpu}
 {weight}
