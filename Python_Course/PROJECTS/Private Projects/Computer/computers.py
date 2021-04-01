@@ -6,6 +6,7 @@ graphics = {
 }
 
 gpu = str(input("GPU Type: "))
+
 try:
     weight = float(input("Weight: "))
 except ValueError:
@@ -19,12 +20,22 @@ if metric.lower() == 'l':
     if choice.lower() == 'y':
         weight = converters.lbs_to_kg(weight)
         metric = 'kg'
+    elif choice == 'n':
+        pass
+    else:
+       print('Please input \'y\' or \'n\'')
+       exit()
 elif metric.lower() == 'k':
     metric = 'kg'
     choice = input("Would you like to convert to lbs? (Y or N): ")
     if choice.lower() == 'y':
         weight = converters.kg_to_lbs(weight)
         metric = 'lbs'
+    elif choice == 'n':
+        pass
+    else:
+       print('Please input \'y\' or \'n\'')
+       exit()
 
 model = input("Model: ")
 try:
@@ -32,19 +43,31 @@ try:
 except ValueError:
     print('Please input a number.')
     exit()
+
 cpu_metric = input("(G)hz or (M)hz: ")
 
 if cpu_metric.lower() == 'g':
     cpu_metric = "GHz"
-    if input("Would you like to convert to MHz? (Y or N): ").lower() == 'y':
+    choice = input("Would you like to convert to MHz? (Y or N): ") 
+    if choice == 'y':
         cpufreq = converters.ghz_to_mhz(cpufreq)
         cpu_metric = "MHz"
+    elif choice == 'n':
+        pass
+    else:
+       print('Please input \'y\' or \'n\'')
+       exit() 
 elif cpu_metric.lower() == 'm':
     cpu_metric = 'MHz'
-    if input("Would you like to convert to GHz? (Y or N): ").lower() == 'y':
+    choice = input("Would you like to convert to MHz? (Y or N): ") 
+    if choice == 'y':
         cpufreq = converters.mhz_to_ghz(cpufreq)
         cpu_metric = "GHz"
-    
+    elif choice == 'n':
+        pass
+    else:
+       print('Please input \'y\' or \'n\'')
+       exit() 
 
 gpu = gpu.lower()
 
