@@ -59,7 +59,7 @@ if cpu_metric.lower() == 'g':
        exit() 
 elif cpu_metric.lower() == 'm':
     cpu_metric = 'MHz'
-    choice = input("Would you like to convert to MHz? (Y or N): ") 
+    choice = input("Would you like to convert to GHz? (Y or N): ") 
     if choice == 'y':
         cpufreq = converters.mhz_to_ghz(cpufreq)
         cpu_metric = "GHz"
