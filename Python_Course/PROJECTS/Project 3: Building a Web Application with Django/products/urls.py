@@ -7,5 +7,6 @@ from . import views  # . means current folder
 # /products/new
 
 urlpatterns = [
-    path("", views.index)
+      path("", views.index)
+    , path("new", views.new)
 ]
