@@ -1,0 +1,1 @@
+check = any([x for x in heads_or_tails if x == 1])

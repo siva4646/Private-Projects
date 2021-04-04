@@ -1,0 +1,1 @@
+print(name[0] for name in students if students[0][1] == 'A')
