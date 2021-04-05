@@ -1,38 +1,26 @@
-from math import ceil
+from math import ceil, log
 
-loan_principal = int(input("Enter the loan principal: "))
 done = False
 
+loan_principal = 0
+monthly_payment = 0
+loan_interest = 0
+
 while not done:
-    print("What do you want to calculate?")
-    print("Type \"m\" - for number of monthly payments,")
-    choice = input("Type \"p\" - for the monthly payment "
-                   "")
+    print("""
+What do you want to calculate?
+type "n" for number of monthly payments,
+type "a" for annuity monthly payment amount,
+type "p" for loan principal:"""
+)
+    choice = input()
 
-    if choice == 'm':
+    if choice == 'n':
+        loan_principal = int(input("Enter the loan principal: "))
         monthly_payment = int(input("Enter the monthly payment: "))
-        money_left = loan_principal
-        months = 0
+        loan_interest = int(input("Enter the loan interest: "))
 
-        while money_left > 0:
-            money_left -= monthly_payment
-            months += 1
-        if money_left <= 0:
-            if months == 1:
-                print(f'It will take 1 month to pay off the loan')
-                done = True
-            else:
-                print(f'It will take {months} months to pay off the loan')
-                done = True
-    elif choice == 'p':
-        months = int(input("Enter the number of months: "))
-
-        payment = ceil(loan_principal / months)
-        if loan_principal % months != 0:
-            last_payment = loan_principal - (months - 1) * payment
-            print(f'Your monthly payment = {payment} and the last payment = {last_payment}')
-            done = True
-        else:
-            print(f'Your monthly payment = {payment}')
-            done = True
-        done = True
+        i = loan_interest / (12 * 100)
+        months = log(i + 1) * (monthly_payment / (monthly_payment - i * (loan_principal)))
+        print(i)
+        print(months)
