@@ -129,5 +129,20 @@ files:
         CoffeeMachineTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/69/stages/375/implement#comment
-status: Solved
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #16
+
+    Program guessed the word "java" and should output clue "jav-" but this line is not in the output
+
+    Please find below the output of your program during this failed test.
+    Note that the '>' character indicates the beginning of the input line.
+
+    ---
+
+    H A N G M A N
+    Guess the word: j---> java
+    You survived!
+  time: Mon, 05 Apr 2021 09:23:10 UTC
 record: 3
