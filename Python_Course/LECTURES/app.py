@@ -14,7 +14,7 @@ random_words = ['Balls', 'Penis', 'Vagina', 'Cock', 'Hubble', 'Telescopes', 'Pla
 for i in range(1000):
     random_num = randint(0, 8)
     word = random_words[random_num]
-    msg = Message(word + str(i), to="freeoflee@gmail.com", text=
+    msg = Message(word + str(i), to="michelepipicellii@gmail.com", text=
     '''
     BallsBalls                      
     BallsBalls                      
