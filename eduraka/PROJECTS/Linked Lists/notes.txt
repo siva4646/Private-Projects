@@ -1,0 +1,3 @@
+Linked Lists are a linear data structure where the data is not stored in a container in the memory.
+Basically, they can be anywhere. Preferrably in functions. 
+Each element points to the next element, and the last element does not point to another element.
