@@ -6,9 +6,8 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None # First value
-    
     def add(self, data):
-        if self.head is None:
+        if self.head is None: # If head value is none, set head to data
             self.head = Node(data, None)
             return
         

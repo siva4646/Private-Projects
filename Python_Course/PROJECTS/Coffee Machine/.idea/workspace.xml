@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbd69a3-8b48-4da9-b00d-078343ca41a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DiscordBots/Bot/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DiscordBots/Bot/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/fix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DiscordBots/Bot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DiscordBots/Bot/util/keep_alive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Other Languages/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Buy, fill, take_/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Buy, fill, take_/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Buy, fill, take_/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Buy, fill, take_/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Estimate the number of servings/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Estimate the number of servings/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Estimate the number of servings/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Estimate the number of servings/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Ingredient calculator/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Ingredient calculator/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Ingredient calculator/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Ingredient calculator/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Keep track of the supplies/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Keep track of the supplies/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Keep track of the supplies/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Keep track of the supplies/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Making coffee/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Making coffee/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/machine/coffee_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/machine/coffee_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Making coffee/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Making coffee/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linked Lists/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Linked Lists/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../eduraka/PROJECTS/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eduraka/PROJECTS/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617618450056</updated>
       <workItem from="1617618460297" duration="1808000" />
+      <workItem from="1617950814171" duration="39000" />
     </task>
     <servers />
   </component>
@@ -135,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coffee_Machine$coffee_machine.coverage" NAME="coffee_machine Coverage Results" MODIFIED="1617620167347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

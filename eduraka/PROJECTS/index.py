@@ -9,6 +9,8 @@ Would you like to view the contents of the folder? (y or n)
 choice = input("").lower()
 if choice == 'y':
     for item in p.glob("*"):
-        print(item)
+       print(item)
 else:
     print(f'{choice} entered... exiting...')
+
+
