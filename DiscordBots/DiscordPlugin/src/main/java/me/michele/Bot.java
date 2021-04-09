@@ -15,7 +15,7 @@ public class Bot {
         String playing = s.nextLine();
 
         Config config = new Config();
-        JDABuilder builder = config.setup("NzkzODI0NDU2Njg5ODQ0MjQ2.X-x4ow.C3MQOz87wc8gJLs-Sdza5r8JWAg", CacheFlag.ACTIVITY, playing);
+        JDABuilder builder = config.setup(s.nextLine(), CacheFlag.ACTIVITY, playing);
 
         try {
             builder.build();
