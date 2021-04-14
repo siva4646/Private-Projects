@@ -1,5 +1,0 @@
-{
-    "python.pythonPath": "/opt/homebrew/bin/python3",
-    "terminal.integrated.inheritEnv": false,
-    "editor.acceptSuggestionOnCommitCharacter": false
-}

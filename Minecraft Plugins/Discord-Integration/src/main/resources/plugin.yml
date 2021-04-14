@@ -1,4 +1,0 @@
-name: Discord Integration
-version: ${project.version}
-main: me.michelepipicelli.discordintegration.DiscordIntegration
-api-version: 1.16

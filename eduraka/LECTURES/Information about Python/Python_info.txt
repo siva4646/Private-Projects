@@ -1,7 +1,0 @@
-Python was created in 1989 by Guido Van Rossum. Guido originally 
-started developing the language as a hobby, and he wanted to create
-a language which was easy-to-read for beginners. As an example,
-instead of curly braces the language used indents.
-
-The language was not popularized mainly because it was slow
-compared to other languages
